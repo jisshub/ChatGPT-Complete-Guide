@@ -44,5 +44,32 @@ The key take aways of the article are:
 
 ```
 
+### Prompt 3:
+
+Question:
+---------
+Use python & jaavscript to encode into inpput text by shifting every character one character to the left.
+
+
+
+Prompt:
+--------
+
+```prompt
+You are an experienced Python and Javascript developer.
+
+Give me the code for a program that takes some text as user input. The program should then encode that text by shifting every character one character to the left.
+For example, "B" becomes "A", "E becomes "D" and so on.
+
+Finally, program should output that encoded text.
+
+
+Write the program for both python and javascript developers
+```
+
+
+### Contextual Prompting
+
+
 
 
