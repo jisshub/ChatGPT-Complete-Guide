@@ -71,5 +71,34 @@ Write the program for both python and javascript developers
 ### Contextual Prompting
 
 
+### Emotional Prompting
 
+Example:
 
+```prompt
+Write an email response to the following custoner complaint:
+
+"
+Your products are garbage. The new chair broke 1 day after it was shipped. You will hear from my
+lawyer.
+"
+
+When drafting the response, take the sentiment and tone of the customer into account.
+```
+
+### Laddering Prompting
+
+#### Example:
+
+```prompt
+Set up a basic ndoejs rest api with the following endpoints:
+
+- GET /events (returns a list of events)
+- GET /events/:id (returns a single event)
+- POST /events (creates a new event)
+- PUT /events/:id (updates an existing event)
+- DELETE /events/:id (deletes an existing event)
+
+Only add very simple dummy code for these endpoints.
+This first step is just about setting up the general API + endpoints.
+```
