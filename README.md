@@ -1,5 +1,21 @@
 # ChatGPT Complete Guide
 
+[Writing Prompts - The Basics](#writing-prompts---the-basics)
+
+[Prompt Engineering](#prompt-engineering)
+
+[Core Prompt Elements](#core-prompt-elements)
+
+[Contextual Prompting](#contextual-prompting)
+
+[Emotional Prompting](#emotional-prompting)
+
+[Laddering Prompting](#laddering-prompting)
+
+[Reversing Roles](#reversing-roles)
+
+[ChatGPT Prompts Github Notes](#chatgpt-prompts-github-notes)
+
 ## Writing Prompts - The Basics
 
 
@@ -22,8 +38,6 @@ Avg. Temparature(Celsius):
 Hours of Sunshine: 
 Rainy Days per month:
 ```
-
-
 #### Prompt 2:
 
 ```prompt
@@ -90,6 +104,8 @@ When drafting the response, take the sentiment and tone of the customer into acc
 
 #### Example:
 
+Regarding Nodejs Application:
+
 ```prompt
 Set up a basic ndoejs rest api with the following endpoints:
 
@@ -97,8 +113,43 @@ Set up a basic ndoejs rest api with the following endpoints:
 - GET /events/:id (returns a single event)
 - POST /events (creates a new event)
 - PUT /events/:id (updates an existing event)
-- DELETE /events/:id (deletes an existing event)
+- DELETE /events/:id (dele  tes an existing event)
 
 Only add very simple dummy code for these endpoints.
 This first step is just about setting up the general API + endpoints.
 ```
+
+### Reversing Roles
+
+
+#### Example:
+
+```prompt
+You are chatgpt - an advanced ai maiming to help users generate content.
+
+Your goal is to write a prompt that could be used by chatgpt users.
+
+Given the below output, write a prompt that would have yielded a similar output ?
+
+Example Output:
+
+AI will not replace web developers, but it will certainly transform the field. As AI and automation technologies continue to advance, we cab expect them to handle more routine and repetitive tasks, such as coding and layout designs. This will enable web developers to focus on creative and strategic aspects of their work.
+```
+
+Result:
+
+```prompt
+Prompt: "What is the role of AI in the field of web development and how does it impact the work of web developers?"
+```
+
+
+## ChatGPT Prompts Github Notes
+
+https://github.com/f/awesome-chatgpt-prompts
+
+
+You are expert in writing markdown files or readme file.
+
+I want you to write Table of Contents for the above readme file.
+
+
