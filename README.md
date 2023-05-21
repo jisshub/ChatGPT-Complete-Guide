@@ -16,6 +16,8 @@
 
 [ChatGPT Prompts Github Notes](#chatgpt-prompts-github-notes)
 
+[Using ChatGPT for Utitlity Tasks](#using-chatgpt-for-utitlity-tasks)
+
 ## Writing Prompts - The Basics
 
 
@@ -151,5 +153,9 @@ https://github.com/f/awesome-chatgpt-prompts
 You are expert in writing markdown files or readme file.
 
 I want you to write Table of Contents for the above readme file.
+
+
+
+## Using ChatGPT for Utitlity Tasks
 
 
