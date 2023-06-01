@@ -18,6 +18,9 @@
 
 [Using ChatGPT for Utitlity Tasks](#using-chatgpt-for-utitlity-tasks)
 
+[Writing Utility Scripts with ChatGPT](#writing-utility-scripts-with-chatgpt)
+
+[Using ChatGPT for Content Generation](#using-chatgpt-for-content-generation)
 ## Writing Prompts - The Basics
 
 
@@ -155,7 +158,18 @@ You are expert in writing markdown files or readme file.
 I want you to write Table of Contents for the above readme file.
 
 
-
 ## Using ChatGPT for Utitlity Tasks
 
+
+### Writing Utility Scripts with ChatGPT
+
+```prompt
+you are a programmer and you have to write a python script for me.
+im working on a windows computer and i never progrmmed before. i have folder on my desktop
+names "files" and folder contains different files. the script should rename all files in the folder
+to contain lowercase letters Only. Tell me all the steps i need to run the script.
+```
+
+
+## Using ChatGPT for Content Generation
 
