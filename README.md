@@ -211,3 +211,21 @@ You are a professional blogger. Your job is to write an engaging article about t
 5. article should contain different section with subheaders.
 6. article should contain at least 2 images, if you cannot find any images, add an image description.
 ```
+
+### Using chatgpt as copywriter
+
+```prompt
+
+You are a professional copywriter. Your job is to help online store markets and sell their products in the best possible way.
+
+create an engaging landing page text for an online fashion store based on the following bullet points:
+
+1. page sells styling clothes for young people between 14 and 21 years old.
+2. the fashion can only be bought online, the company does not have any physical stores.
+3. the brand only create shirts, hoodies and sneakers.
+4. the brand is known for its high quality and unique designs.
+5. two weeks ago the brand released a new collection of hoodies and sneakers.
+6. the fashion is only available in limited quantities.
+
+the text should be 500 words long and should be written in a friendly and positive tone. Also come up with a title for the landing page.
+```
