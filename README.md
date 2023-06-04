@@ -23,6 +23,8 @@
 [Using ChatGPT for Content Generation](#using-chatgpt-for-content-generation)
 
 [Using ChatGPT for Content Generation](#using-chatgpt-for-content-generation)
+
+[Using chatgpt as interviewer](#using-chatgpt-as-interviewer)
 ## Writing Prompts - The Basics
 
 
