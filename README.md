@@ -21,6 +21,8 @@
 [Writing Utility Scripts with ChatGPT](#writing-utility-scripts-with-chatgpt)
 
 [Using ChatGPT for Content Generation](#using-chatgpt-for-content-generation)
+
+[Using ChatGPT for Content Generation](#using-chatgpt-for-content-generation)
 ## Writing Prompts - The Basics
 
 
@@ -171,5 +173,41 @@ to contain lowercase letters Only. Tell me all the steps i need to run the scrip
 ```
 
 
-## Using ChatGPT for Content Generation
+### Using ChatGPT for Content Generation
 
+### Writing an article / blogpost
+
+
+```prompt
+write an article about the iphone history and how it changed the world.
+```
+
+### Adding Constraints:
+
+
+```prompt
+1. Target Audience: 20-30 year olds
+
+2. Topic related keywords.
+
+3. Tone: Friendly, Informative, Positive
+
+4. Length: 1000 words
+
+5. Adding a title: "The History of the iPhone"
+
+6. Adding images: 2 images
+```
+
+### Using a single prompt to create articles
+
+```prompt
+You are a professional blogger. Your job is to write an engaging article about the development of the iPhone based on these bullet points:
+
+1. article should start with a short introduction about the iPhone.
+2. target audience are tech related people.
+3. article should be 1000 words long.
+4. you should hightlight the most important milestones in the development of the iPhone.
+5. article should contain different section with subheaders.
+6. article should contain at least 2 images, if you cannot find any images, add an image description.
+```
