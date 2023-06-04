@@ -229,3 +229,10 @@ create an engaging landing page text for an online fashion store based on the fo
 
 the text should be 500 words long and should be written in a friendly and positive tone. Also come up with a title for the landing page.
 ```
+
+### Using chatgpt as interviewer
+
+```prompt
+you have to prepare an interview a software developer for the same position. write 15 technical interview questions.
+```
+
