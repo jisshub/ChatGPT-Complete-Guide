@@ -1,39 +1,27 @@
-def encode_text(text):
-    encoded_text = ""
-    for char in text:
-        if char.isalpha():
-            if char == 'a':
-                encoded_char = 'z'
-            elif char == 'A':
-                encoded_char = 'Z'
-            else:
-                encoded_char = chr(ord(char) - 1)
-        else:
-            encoded_char = char
-        encoded_text += encoded_char
-    return encoded_text
+# Given coordinates of a point (x,y) in 2D plane, find in which quadrant does this point lie.
+# Input format
+# First line contains 2 space separated real numbers - x coordinate, y coordinate.
 
-user_input = input("Enter the text to encode: ")
-encoded_text = encode_text(user_input)
-print("Encoded text:", encoded_text)
+# Output format
+# Print 1, 2, 3 or 4 depending on in which quadrant does the point lie.
 
+# Sample Input 1
+# -5.5 2
 
-# python program to rename all file names in your directory
+# Sample Output 1
+# 2
 
-import os
-def rename_files():
-    # get file names from a folder
-    file_list = os.listdir(r"C:\Users\Jom\Documents\MyPersonalWorks\chatgpt-complete-guide\files")
-    print(file_list)
-    saved_path = os.getcwd()
-    print("Current working directory is " + saved_path)
-    os.chdir(r"C:\Users\Jom\Documents\MyPersonalWorks\chatgpt-complete-guide\files")
-    # for each file, rename filename
-    for file_name in file_list:
-        print("Old Name - " + file_name)
-        print("New Name - " + file_name.translate(None, "0123456789"))
-        os.rename(file_name, file_name.translate(None, "0123456789"))
-    os.chdir(saved_path)
+def quadrant(x, y):
+    if x > 0 and y > 0:
+        return 1
+    elif x < 0 and y > 0:
+        return 2
+    elif x < 0 and y < 0:
+        return 3
+    else:
+        return 4
+
+print(quadrant(-5.5, 2))
 
 
-rename_files()
+# 
