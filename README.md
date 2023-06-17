@@ -25,6 +25,8 @@
 [Using ChatGPT for Content Generation](#using-chatgpt-for-content-generation)
 
 [Using chatgpt as interviewer](#using-chatgpt-as-interviewer)
+
+[Using ChatGPT for Programming and Development](#using-chatgpt-for-programming-and-development)
 ## Writing Prompts - The Basics
 
 
@@ -237,4 +239,23 @@ the text should be 500 words long and should be written in a friendly and positi
 ```prompt
 you have to prepare an interview a software developer for the same position. write 15 technical interview questions.
 ```
+
+### JSON & CSV & Table & Markdown
+
+```prompt
+create a json array . it should contain 5 recipes. each recipee should contain atleast 5 ingredients.
+```
+
+```prompt
+provide data for 50 largest cities in the world in csv format with the following headers: City, COuntry, Region, Population, Currency.
+```
+
+```prompt
+I need output in tabular format for dummy data for an online store. the columns should be: Product, Price, Quantity, Total Price. the table should contain 20 rows  
+```
+
+## Using ChatGPT for Programming and Development
+
+https://www.udemy.com/course/chatgpt-bard-bing-complete-guide-to-chatgpt-openai-apis/learn/lecture/37600130#overview
+
 
