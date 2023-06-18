@@ -256,6 +256,32 @@ I need output in tabular format for dummy data for an online store. the columns 
 
 ## Using ChatGPT for Programming and Development
 
-https://www.udemy.com/course/chatgpt-bard-bing-complete-guide-to-chatgpt-openai-apis/learn/lecture/37600130#overview
+### Writing a python script
+
+```prompt
+write a python script that takes a list of numbers as input and returns the sum of all numbers in the list.
+```
+
+### Writing a javascript function
+
+```prompt
+write a javascript function that takes a list of numbers as input and returns the sum of all numbers in the list.
+```
+
+### Writing a javascript class
+
+```prompt
+You are an experienced developer. 
+
+Write a prgram that scans all files in a given folder and organizes them into subfolders based on their file extension.
+
+- Audio files should be moved to a folder called "audio"
+- Video files should be moved to a folder called "video"
+- Image files should be moved to a folder called "images"
+- Text files should be moved to a folder called "text"
+- All other files should be moved to a folder called "other"
+```
+
+
 
 

@@ -1,3 +1,7 @@
 *.py
 *.js
 *.css
+
+samples/
+
+files/
