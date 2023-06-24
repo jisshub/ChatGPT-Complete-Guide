@@ -283,5 +283,16 @@ Write a prgram that scans all files in a given folder and organizes them into su
 ```
 
 
+### Creating a website
+```prompt   
+You are an experienced developer.
 
+Create a website that has the following pages:
+
+- A starting page with a short introduction about yourself.
+- A page with a list of your projects.
+- A page with a contact form.
+
+The website should be responsive and work on mobile devices.
+```
 
