@@ -296,3 +296,60 @@ Create a website that has the following pages:
 The website should be responsive and work on mobile devices.
 ```
 
+### Creating a building with ChatGPT
+
+```prompt
+You are an experienced NODEJS developer.
+
+For an existing node express app, give me the code for a custom middleware function that checks the authentication status of users.
+
+This middleware should check whether incoming requests have a session cookie set and if that session is valid.
+
+If the session is valid, the request should be allowed to pass, otherwise a fitting error message should be returned.
+
+Dont generate the whole code foe the applicatin, just the middleware function.
+```
+
+## Linkedin Resume Update
+
+```prompt
+I want you to update my profile section of my resume. I have given my skills and experience below. I want you to write a summary for me. I have 3+ years of experience in frontend development.
+
+Skills:
+- HTML, CSS & Bootstrap
+- JavaScript
+- Sass
+- TypeScript
+- ReactJS
+- Redux
+- Responsive Design
+- Material UI
+- Node.js
+- SQL
+- PostgreSQL
+- MongoDB
+- RESTful API
+- Git
+- Figma
+- Agile & Scrum
+- Code Versioning Tools (Github, Bitbucket):
+- Front End Development Tools (NPM, Babel, ESLint):
+- Prompt Engineering
+```
+
+Experience:
+- Junior Software Developer at Naico ITS, Kochi for 1 year 6 months.
+- ReactJS Developer at Fegno Technologies, Kochi for 1 year 3 months.
+- ReactJS Developer at BIGFORMULA, Kochi for 2 months (present).
+
+Write a profile summary for me based on above information. The summary should be 200 words long.
+It should be catchy and should highlight my skills and experience. It should be written in a friendly and positive tone. HR managers should be impressed by my profile summary. 
+
+Response:
+
+With 3+ years of frontend development experience, I am a skilled professional well-versed in HTML, CSS, Bootstrap, JavaScript, ReactJS, Redux, and more. I have successfully delivered pixel-perfect designs and seamless user experiences. Proficient in agile methodologies, version control, and UI/UX design, I thrive in collaborative environments. Currently, as a ReactJS Developer at BIGFORMULA, I excel in creating robust applications using Node.js, SQL, and RESTful API integration. With a passion for innovation and a commitment to excellence, I am eager to contribute to new projects and make a lasting impact in frontend development. Let's connect and discuss how I can enhance your team's success.
+
+
+## Laddering Prompting
+
+
