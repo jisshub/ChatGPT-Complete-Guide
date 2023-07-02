@@ -27,6 +27,15 @@
 [Using chatgpt as interviewer](#using-chatgpt-as-interviewer)
 
 [Using ChatGPT for Programming and Development](#using-chatgpt-for-programming-and-development)
+
+[Linkedin Resume Update](#linkedin-resume-update)
+
+[Avoid Unneccessary explanations in ChatGPT Output](#avoid-unneccessary-explanations-in-chatgpt-output)
+
+[Debugging Using ChatGPT](#debugging-using-chatgpt)
+
+[Using ChatGPT for Generating Dummy Data](#using-chatgpt-for-generating-dummy-data)
+
 ## Writing Prompts - The Basics
 
 
@@ -352,4 +361,67 @@ With 3+ years of frontend development experience, I am a skilled professional we
 
 ## Laddering Prompting
 
+
+## Avoid Unneccessary explanations in ChatGPT Output
+
+```prompt
+Give me the code for validating user input.
+
+The code should validate users email address and password. the password must be at leadt 8 characters long.
+
+Dont use any third party libraries.
+
+Avoid unnecessary explanations in the output.
+```
+
+## Debugging Using ChatGPT
+
+```prompt
+You are an experienced javascript developer.
+
+You have to find the bugs in the below code and fix them.
+
+Return the updated version of code back.
+
+function addNumbers(a, b) {
+    return a + b;
+}
+
+function multiplyNumbers(a, b) {
+    return a * b;
+}
+
+function divideNumbers(a, b) {
+    if (b !== 0) {
+        return a / b;
+    } else {
+        return "Error: Division by zero is not allowed.";
+    }
+}
+
+let num1 = 5;
+let num2 = 0;
+
+console.log("Sum:", addNumbers(num1, num2));
+console.log("Product:", multiplyNumbers(num1, num2));
+console.log("Quotient:", divideNumbers(num1, num2));
+```
+
+## Using ChatGPT for Generating Dummy Data
+
+```prompt
+You are a data generator.
+
+Generate some dummy user data for a social media app. The data should be in JSON format.
+
+The data should contain 1000 users. Each user should have the following properties:
+
+- id
+- name
+- email
+- phone
+- address
+- website
+- company
+```
 
