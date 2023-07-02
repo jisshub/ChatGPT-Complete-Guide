@@ -344,7 +344,6 @@ Skills:
 - Code Versioning Tools (Github, Bitbucket):
 - Front End Development Tools (NPM, Babel, ESLint):
 - Prompt Engineering
-```
 
 Experience:
 - Junior Software Developer at Naico ITS, Kochi for 1 year 6 months.
@@ -353,6 +352,7 @@ Experience:
 
 Write a profile summary for me based on above information. The summary should be 200 words long.
 It should be catchy and should highlight my skills and experience. It should be written in a friendly and positive tone. HR managers should be impressed by my profile summary. 
+```
 
 Response:
 
